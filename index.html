@@ -1,0 +1,78 @@
+<html>
+<head><title></title></head>
+<link rel="stylesheet" href="animate.css">
+<style>
+    .ui-hidden{
+      display: none;
+    }
+    .read-more{
+        cursor: pointer;
+    }
+</style>
+
+<body>
+<div class="pagination-group1" >
+    <div style="display: flex">
+
+        <div class='pagination-item'>
+            <div>xxxx1</div>
+            <img width="150pk" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+
+        <div class='pagination-item'>
+            <div>xxxx2</div>
+            <img width="150pk" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class='pagination-item'>
+            <div>xxxx3</div>
+            <img width="150pk" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class='pagination-item'>
+            <div>xxxx4</div>
+            <img width="150pk" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class='pagination-item'>
+            <div>xxxx5</div>
+            <img width="150pk" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class='pagination-item'>
+            <div>xxxx6</div>
+            <img width="150pk" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class='pagination-item'>
+            <div>xxxx7</div>
+            <img width="150pk" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+        <div class='pagination-item'>
+            <div>xxxx8</div>
+            <img width="150pk" src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+        </div>
+    </div>
+    <div class="read-more">read-more</div>
+</div>
+
+
+
+
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="paginationReadmore.js"></script>
+</html>
+<!-- effect style : https://daneden.github.io/animate.css/ -->
+<script>
+    paginationReadmoreItem({
+        classGroupItem:'pagination-group1',
+        classItem:'pagination-item',
+        showItemInpage:'3',
+        showNextPageItem:'2',
+        effect:"fadein",
+        mobile:{
+            showItemInpage:'3',
+            showNextPageItem:'1',
+            effect:"fadein"
+        }
+    });
+
+
+</script>
