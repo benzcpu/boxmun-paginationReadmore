@@ -1,0 +1,19 @@
+{
+  "name": "boxmun-paginationreadmore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "paginationReadmore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benzcpu/boxmun-paginationReadmore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benzcpu/boxmun-paginationReadmore/issues"
+  },
+  "homepage": "https://github.com/benzcpu/boxmun-paginationReadmore#readme"
+}
