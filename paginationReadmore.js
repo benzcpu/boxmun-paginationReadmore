@@ -1,8 +1,8 @@
 
 function paginationReadmoreItem(object) {
-    var groupObject= $('.'+object.classGroupItem);
-    var itemObject= $('.'+object.classGroupItem).find('.'+object.classItem);
-    var readmore= $('.'+object.classGroupItem).find('.read-more');
+    var groupObject= $(object.classGroupItem);
+    var itemObject= $(object.classGroupItem).find(object.classItem);
+    var readmore= $(object.classGroupItem).find('.read-more');
     if(window.screen.width<=812 && object.mobile){
         if(object.mobile.showItemInpage!=""){
             object.showItemInpage= object.mobile.showItemInpage;
@@ -37,7 +37,7 @@ function paginationReadmoreItem(object) {
 $('.read-more').click(function(){
     var self=this;
     var groupObject= $(self).attr('data-group');
-    var itemObject= $('.'+groupObject).find('.'+ $(self).attr('data-item'));
+    var itemObject= $(groupObject).find( $(self).attr('data-item'));
     var dataIndex=$(self).attr('data-index');
     var datashowItem=$(self).attr('data-showItem');
     var datashowNextPageItem=$(self).attr('data-showNextPageItem');
